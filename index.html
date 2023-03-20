@@ -435,7 +435,33 @@
             <h2 class="contact-title title left-contact-title">
               Online-booking
             </h2>
+            <form name="user_contact" class="contact-form-group">
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="Name*"
+                  minlength="2"
+                  required
+                  class="contact-text-field contact-input"
+                />
+                <input
+                  type="tel"
+                  name="user_phone"
+                  placeholder="Phone*"
+                  required
+                  class="contact-text-field contact-input"
+                />
+              </div>
+              <textarea
+                name="user_message"
+                placeholder="Message"
+                class="contact-text-field contact-textarea"
+              ></textarea>
+              <button type="submit" class="form-btn button">send</button>
+            </form>
           </div>
+
           <div class="contact-place">
             <h2 class="contact-title title right-contact-title">Contacts</h2>
             <address class="contact-address">
